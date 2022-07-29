@@ -3,11 +3,6 @@ class IronBody {
   IronBody({this.ironType});
 }
 
-void call([String? name = "Tom", int? age = 20]) {
-  print(name);
-  print(age);
-}
-
 abstract class Fly {
   void fly();
 }
